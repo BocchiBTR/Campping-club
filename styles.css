@@ -146,7 +146,7 @@ body {
     object-fit: cover;
 }
 
-@media only screen and (min-width : 650px){
+@media screen and (min-width : 650px){
     .full-split-left,
     .full-split-right {
         grid-template-rows: 500px;
