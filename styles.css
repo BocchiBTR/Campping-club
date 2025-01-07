@@ -101,7 +101,7 @@ body {
 
     /* calculate content-size and full-width-size */
     --calc-content: min(100% - calc(var(--padding-inline) * 2), var(--content-size));
-    --calc-full-width: minmax(var(--padding-inline), 1fr);
+    --calc-full-width: minmax(var(--padding-inline), var(--full-width-size));
     
     /* create map */
     display: grid;
